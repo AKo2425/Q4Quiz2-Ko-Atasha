@@ -1,0 +1,53 @@
+body {
+	background-color: #000000;
+	color: #b8dbd9;
+	font-family: "Shadows Into Light", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size:20px;
+
+}
+
+h1 {
+	text-align: center;
+	background-color: #22333b;
+	color: #b8dbd9;
+	font-size: 45px;
+}
+
+details {
+	text-align: center;
+}
+
+.subject img {
+  	width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.score-box {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.button-custom {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #586f7c;
+    color: #f4f4f9;
+    cursor: pointer;
+}
+
+.note {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 20px;
+  	text-align: center;
+}
+
+footer {
+	font-size:10px;
+	text-align:center;
+}

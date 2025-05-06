@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz 2</title>
+
+  <!-- Bootstrap CSS CDN (added) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-center my-4">Score Analyzer</h1>
+
+  <details class="text-center mb-3">
+    <summary>Click Me</summary>
+    <p>Enter your grades in the following subjects</p>
+  </details>
+
+  <div class="container text-center">
+    <div class="row justify-content-center">
+
+      <!-- Science -->
+      <div class="col-md-3 subject-img">
+        <img src="sci.jpg" alt="Science" class="img-fluid mb-2">
+        <input type="number" id="scienceScore" placeholder="Science Score" class="form-control" min="0" max="100">
+      </div>
+
+      <!-- Math -->
+      <div class="col-md-3 subject-img">
+        <img src="math.jpg" alt="Math" class="img-fluid mb-2">
+        <input type="number" id="mathScore" placeholder="Math Score" class="form-control" min="0" max="100">
+      </div>
+
+      <!-- English -->
+      <div class="col-md-3 subject-img">
+        <img src="english.jpg" alt="English" class="img-fluid mb-2">
+        <input type="number" id="englishScore" placeholder="English Score" class="form-control" min="0" max="100">
+      </div>
+    </div>
+
+    <button class="btn btn-primary mt-4 button-custom" onclick="getRating()">Get Rating</button>
+
+    <p class="note mt-3">
+      Note: <em>Grading Criteria and Equivalents can vary depending on school or district.</em>
+    </p>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script>
+<footer>
+      <p>&copy; Atasha Ko | 9-Sapphire </p>
+</footer>
+</body>
+</html>
